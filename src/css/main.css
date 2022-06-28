@@ -1,9 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #7640E8;
+    /*background-color: #7640E8;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(142,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23D936FF'/%3E%3Cstop offset='1' stop-color='%23A9FFA3'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(92,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%2377FF7E'/%3E%3Cstop offset='1' stop-color='%23FFCC7C'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='15.179999999999998'%3E%3Cpath transform='translate(-61.25 5.6) rotate(1.25 1409 581) scale(0.9826949999999999)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='5.06' transform='translate(-66.5 44) rotate(5.699999999999999 800 450) scale(1.007895)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(15.600000000000001 -64.5) rotate(49.5 401 736) scale(1.007895)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4.6'%3E%3Cpath transform='translate(264 -2.5999999999999996) rotate(0.6499999999999999 150 345) scale(0.9855649999999999)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='10.12' transform='translate(-93.5 -117.5) rotate(50.400000000000006 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-180 52) rotate(8.399999999999999 1400 132) scale(0.925)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #7760FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(181,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(164,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='22.439999999999998'%3E%3Cpath transform='translate(-204.4 -7.599999999999998) rotate(-19.299999999999997 1409 581) scale(0.764302)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='7.48' transform='translate(-320.5 175) rotate(4 800 450) scale(0.9891279999999999)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(2.299999999999997 -88.5) rotate(-8.5 401 736) scale(0.9891279999999999)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='6.8'%3E%3Cpath transform='translate(1050 27.000000000000004) rotate(-6.750000000000001 150 345) scale(1.011434)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='14.96' transform='translate(-166.5 -486) rotate(-68.39999999999998 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-506.8 117.2) rotate(-11.400000000000006 1400 132) scale(0.515)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 h2{
 	color: rgba(255,255,255,);
@@ -15,7 +19,7 @@ h2{
 	text-shadow:0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
 .form{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.61);
     padding: 20px;
     width: 300px;
     margin: 0 auto;
@@ -60,7 +64,7 @@ input[type="submit"]:hover{
 }
 
 #eventsContainer{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.753);
     border-radius: 5px;
     padding: 10px;
     width: 500px;
@@ -71,7 +75,7 @@ input[type="submit"]:hover{
 }
 
 .event{
-    border: solid 1px #ccc;
+    border: solid 1px rgb(185, 185, 185);
     padding: 10px;
     display: flex;
     align-items: center;
