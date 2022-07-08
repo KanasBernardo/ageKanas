@@ -1,3 +1,4 @@
+import "../css/main.css";
 //para el menu hamburgueza
 const bMore = document.querySelector("#bMore");
 const links = document.querySelector("#links");
