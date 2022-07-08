@@ -177,6 +177,12 @@ nav .desktop .secondary.mini{
 }
 @media screen and (max-width: 1009px){.tale{font-size: 20px;}}
 @media screen and (max-width: 853px){
+    nav .mobile{
+        display: block;
+    }
+    nav .desktop img{
+        display: none;
+    }
     nav .secondary.full{
         display: none;
     }

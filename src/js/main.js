@@ -1,30 +1,41 @@
-import "../css/main.css";
-
 //para el menu hamburgueza
 const bMore = document.querySelector("#bMore");
 const links = document.querySelector("#links");
-bMore.addEventListener("click", (e) =>{
-    links.classList.toggle("collapsed");
-});
-//Inicio del codigo para la agenda
 
-let events = [];
-let arr = []; //para cargar informacion
-
-const eventName = document.querySelector("#eventName");
-const eventDate = document.querySelector("#eventDate");
-const buttonAdd = document.querySelector("#bAdd");
-const eventsContainer = document.querySelector("#eventsContainer");
 const Cusar = document.querySelector("#usar");
 const contactame = document.querySelector("#contact");
 
+const Usarweb = document.querySelector("#usar-web");
+const Contactweb = document.querySelector("#contact-web");
+
+
+bMore.addEventListener("click", (e) =>{
+    links.classList.toggle("collapsed");
+});
+
 Cusar.addEventListener("click", (e) =>{
-    return Swal.fire({
-        title: '<h5 class="tale">¿Como Funciona se usa la agenda?</5>',
+    return comoseUsar();
+});
+
+contactame.addEventListener("click", (e) =>{
+    return contacto();
+});
+
+Usarweb.addEventListener("click", (e) =>{
+    return comoseUsar();
+});
+
+Contactweb.addEventListener("click", (e) =>{
+    return contacto();
+});
+
+function comoseUsar(){
+    Swal.fire({
+        title: '<h5 class="tale">¿Como se Usa la agenda?</5>',
         icon: 'info',
         html:
         '<p class="contenidoAlert">La agenda funciona como un contador de días, almacenando los datos en memeria local, es decir que se eliminaran los datos hasta que borres la cache de tu navegador o elimando lo agendado con el boton de eliminar</p><br><br>' +
-        '<p class="contenidoAlert">Si descargas la aplicación para dispositivos mobiles, de la misma manera la aplicación utilizara memoria de tu celular y asi mismo se borrara lo agendado con el boton de eliminar o ya sea borrando los datos de la aplicación</p>',
+        '<p class="contenidoAlert">Si descargas la aplicación para dispositivos mobiles, de la misma manera la aplicación utilizara memoria de tu celular y asi mismo se borrara lo agendado con el boton de eliminar o ya sea borrando los daros de la aplicación</p>',
         //showCloseButton: true,
         focusConfirm: false,
         footer: '<span class="spAlert">¡Información Importante!',
@@ -36,10 +47,11 @@ Cusar.addEventListener("click", (e) =>{
             popup: 'tamAlerta'
         }
       })
-});
+}
 
-contactame.addEventListener("click", (e) =>{
-    return Swal.fire({
+
+function contacto(){
+    Swal.fire({
         title: '<h6 class="tale">¡Hola!, ¿Crees que puedo mejorar algo?</h6 >',
         html:
             '<p class="contenidoAlert">Tu comentario me seria de mucha ayuda para mejorar esta agenda</p><br><br>'+
@@ -71,7 +83,17 @@ contactame.addEventListener("click", (e) =>{
           location.href = "https://www.instagram.com/bernard_k89/";
         }
       })
-});
+}
+
+//Inicio del codigo para la agenda
+
+let events = [];
+let arr = []; //para cargar informacion
+
+const eventName = document.querySelector("#eventName");
+const eventDate = document.querySelector("#eventDate");
+const buttonAdd = document.querySelector("#bAdd");
+const eventsContainer = document.querySelector("#eventsContainer");
 
 const json = load();
 
