@@ -35,7 +35,7 @@ function comoseUsar(){
         title: '<h5 class="tale">¿Como se Usa la agenda?</5>',
         icon: 'info',
         html:
-        '<p class="contenidoAlert">La agenda funciona como un contador de días, almacenando los datos en memeria local, es decir que se eliminaran los datos hasta que borres la cache de tu navegador o elimando lo agendado con el boton de eliminar</p><br><br>' +
+        '<p class="contenidoAlert">La agenda funciona como un contador de días, almacenando los datos en memoria local, es decir que se eliminaran los datos hasta que borres la cache de tu navegador o eliminando lo agendado con el boton de eliminar</p><br><br>' +
         '<p class="contenidoAlert">Si descargas la aplicación para dispositivos mobiles, de la misma manera la aplicación utilizara memoria de tu celular y asi mismo se borrara lo agendado con el boton de eliminar o ya sea borrando los daros de la aplicación</p>',
         //showCloseButton: true,
         focusConfirm: false,
