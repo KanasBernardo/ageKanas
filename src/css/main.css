@@ -208,7 +208,7 @@ nav .desktop .secondary.mini{
         font-size: 12px;
     }
     .tamAlerta{
-        width: 92%;
+        width: 92% !important;
     }
     
 }
