@@ -114,7 +114,7 @@ input[type="submit"]:hover{
     color: #5b5096;
 }
 .tamAlerta{
-    width: 50%;
+    width: 70%;
 }
 
 /*Estilos para el menu*/
@@ -202,10 +202,10 @@ nav .desktop .secondary.mini{
         display: block;
     }
     .tale{
-        font-size: 18px;
+        font-size: 16px;
     }
     .contenidoAlert{
-        font-size: 14px;
+        font-size: 12px;
     }
     .tamAlerta{
         width: 92%;
@@ -271,7 +271,7 @@ nav .desktop .secondary.mini{
         display: block;
     }
     .tale{
-        font-size: 15px;
+        font-size: 14px;
     }
     .contenidoAlert{
         font-size: 12px;
