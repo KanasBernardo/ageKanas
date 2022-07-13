@@ -42,8 +42,6 @@ function comoseUsar(){
         footer: '<span class="spAlert">¡Información Importante!',
         //background: '#7760FF',
         //width: '90%',
-        allowOutsideClick: false,
-        allowEscapeKey: false,
         customClass: {
             popup: 'tamAlerta'
         }
