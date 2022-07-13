@@ -70,8 +70,6 @@ function contacto(){
           left top
           no-repeat
         `,
-        allowOutsideClick: false,
-        allowEscapeKey: false,
         customClass: {
             popup: 'tamAlerta'
         }
