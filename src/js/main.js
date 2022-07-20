@@ -32,7 +32,7 @@ Contactweb.addEventListener("click", (e) =>{
 
 function comoseUsar(){
     Swal.fire({
-        title: '<h5 class="tale">¿Como se Usa la agenda?</5>',
+        title: '<h5 class="tale">¿Como se usa la agenda?</5>',
         icon: 'info',
         html:
         '<p class="contenidoAlert">La agenda funciona como un contador de días, almacenando los datos en memeria local, es decir que se eliminaran los datos hasta que borres la cache de tu navegador o elimando lo agendado con el boton de eliminar</p>' +
