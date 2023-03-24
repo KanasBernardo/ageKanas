@@ -61,7 +61,7 @@ function contacto(){
         showDenyButton: true,
         confirmButtonColor: '#5B94D5',
         cancelButtonColor: '#A0A0A0',
-        confirmButtonText: 'Facebook',
+        confirmButtonText: 'Twitter',
         denyButtonText: `Instagram`,
         padding: '1em',
         color: '#816add',
@@ -77,7 +77,7 @@ function contacto(){
         }
       }).then((result) => {
         if (result.isConfirmed) {
-          location.href = "https://www.facebook.com/xdjBrKasPT";
+          location.href = "https://twitter.com/BernardKanas";
         } else if (result.isDenied) {
           location.href = "https://www.instagram.com/bernard_k89/";
         }
